@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes,lightning:backgroundUtilityItem" access="global" >
+	<aura:attribute name="vfHost" type="String"
+        default="kabprerel-dev-ed--c.gus.visual.force.com"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+</aura:component>
